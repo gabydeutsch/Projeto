@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Inlanders';
+    src: url('Inlanders Demo') format ('opentype');
+}
+
+@font-face {
+    font-family: 'Tommy';
+    src: url('MADE TOMMY Bold_PERSONAL USE') format ('opentype');
+}
+
+@font-face {
+    font-family: 'Formula';
+    src: url('FontsFree-Net-FormulaCondensed-Bold') format ('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header-topbar p {
+    font-family: 'Tommy', 'sans-serif';
+    text-align: center;
+    background-color: #ec9ddb;
+    color: #133090;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+header {
+    background-image: url(./assets/padrao-gatwurno.png);
+    background-color: #0b3795;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 140px;
+}
+
+/* nav */
+
+.bg-pinceladinhas {
+
+    background-color: #52299e;
+}
+
+.color-text {
+    font-family: 'Formula', 'sans-serif';
+    color: #ff01d5 !important;
+    font-size: 28px !important;
+}
+
+.color-text:hover {
+    color: #9e41a5 !important;
+    transition: 0.5s;
+}
+
+.navbar-toggler {
+
+    color: #ff01d5 !important;
+}
+
+/* produtos */
+
+.produtos {
+
+    background-image: url(./assets/padrao-gatwurno.png);
+    background-color: #fa19d4d8;
+}
+
+.title-produtos {
+    font-family: 'Inlanders', 'sans-serif';
+    padding: 5px;
+    font-size: 32px;
+    color: #55fff7;
+}
+
+.card-title {
+    font-family: 'Formula', 'sans-serif';
+    font-size: 18px;
+    color: #133090 !important;
+}
+
+.valor-riscado {
+    font-family: 'Tommy', 'sans-serif';
+    color: #22a8b9;
+    font-size: 12px;
+}
+
+.valor-normal,
+.card-text {
+    font-family: 'Inlanders', 'sans-serif';
+    color: #1a0a56 !important;
+    font-size: 20px;
+}
+
+.btn-warning {
+    color: #133090 !important;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2) translateY(-8px);
+}
+
+/* sobre a empresa */
+
+.empresa {
+    background-image: url(./assets/padrao-gatwurno.png);
+    background-color: #0b3795;
+}
+
+.title-empresa {
+    font-family: 'Inlanders', 'sans-serif';
+    font-size: 32px;
+    color: #55fff7;
+}
+
+.img-ate {
+    border-radius: 5%;
+    width: 380px;
+}
+
+.title-about {
+    font-family: 'Formula', 'sans-serif';
+    color: #9dece8 !important;
+    font-size: 35px;
+}
+
+.text-about {
+    font-family: 'Tommy', 'sans-serif';
+    color: white !important;
+    font-size: 20px;
+}
+
+/* Equipe  */
+
+.time {
+    background-image: url(./assets/padrao-gatwurno.png);
+
+}
+
+.title-time {
+    font-family: 'Inlanders', 'sans-serif';
+    font-size: 32px;
+    color: #133090;
+}
+
+.text-time {
+    font-family: 'Tommy', 'sans-serif';
+    font-size: 15px;
+    color: #150a56;
+}
+
+.img-equipe {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.name-team {
+
+    font-family: 'Formula', 'sans-serif';
+    color: #150a56;
+    font-size: 20px;
+}
+
+.text-team {
+    font-family: 'Tommy', 'sans-serif';
+    color: #133090;
+    font-size: 12px;
+
+}
+
+.icons-social a {
+
+    color: #150a56;
+    text-decoration: none;
+    padding: 4px;
+    margin-top: 0;
+
+}
+
+/* footer */
+
+.footer {
+    background-color: #0b3795;
+}
+
+.logo-footer {
+    height: 100px;
+    object-fit: cover;
+    width: 100px ;;
+}
+
+.instagram-username,
+.whatsapp-number {
+
+    text-decoration: none;
+    color: #9dece8;
+    font-family: 'Inlanders', 'sans-serif';
+    font-size: 20px;
+
+}
+
+.instagram-username i,
+.whatsapp-number i {
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.icons-social-footer:last-child {
+    margin-left: 35px;
+}
+
+.nota-footer {
+    background-color: #0b3795;
+    font-family: 'Tommy', 'sans-serif';
+    font-size: 12px;
+    color: rgb(240, 228, 238);
+}
+
+/* Detalhes */
+
+::selection {
+    background-color: #c388c7;
+    color: #ffffff;
+}
+
+/*scrollbar */
+
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: #0b3795;
+}
+
+img {
+    height: 300px;
+    object-fit: cover;
+    width: 300px ;
+}
+
+img-fluid {
+    height: auto;
+    object-fit: cover;
+    width: auto;
+}
